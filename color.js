@@ -21,18 +21,29 @@ Color.isColor = function(rgb){
     return false;
   }
 };
-
+//redIntensity
 Color.redIntensity = function(rgb){
-
+  Math.round ((redworks/255)*100)
+  return;
 };
 
 //greenIntensity
-
+Color.greendIntensity = function(rgb){
+  Math.round ((greenworks/255)*100);
+  return;
+};
 
 //blueIntensity
-
+Color.blueIntensity = function(rgb){
+  Math.round ((blueworks/255)*100);
+  return;
+};
 
 //brightness
+Color.brightness = function (rgb){
 
+  return;
+}
+}
 
 //complement
