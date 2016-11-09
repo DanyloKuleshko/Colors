@@ -41,6 +41,7 @@ Color.blueIntensity = function(rgb){
 
 //brightness
 Color.brightness = function (rgb){
+  
 
   return;
 }
